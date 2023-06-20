@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mridusmita Choudhury</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/980736308b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div id="header">
+     <!-- ------------------bg video----------------------- -->
+
+     <video width="100%" autoplay loop muted plays-inline class="bgVideo">
+      <source src="images/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+ 
+    <!-- <div class="container"> -->
+    <nav id="navbar">
+      <img src="images/My_logo.png" alt="" srcset="" class="logo" />
+      <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <!-- </div> -->
+
+    <div class="header-text">
+      <div class="hText-left">
+        
+        <h4>Hii.. My name is</h4>
+        <p class="my-name">Mridusmita Choudhury.</p>
+        <span>I am a web developer . I am a programmer, programming in C++ language and
+          specializing in Data Structures and algorithms.</span>
+          <!-- <span>I am also the Club head of the Assamese literature club of NIT Silchar and Public Relation head of the NITS Dance Club("AAVEG") , both of which have helped me develop my leadership skills. </span> -->
+
+      </div>
+      <div class="hText-right">
+        <img src="images/Hello.png" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------------about---------------------- -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/profile.jpeg" alt="" srcset="" />
+        </div>
+        <div class="about-col-2">
+         
+
+          <!-- ...........................education........................... -->
+          <div class="education">
+            <h1 class="sub-title My-education">Education</h1>
+
+            <div class="timeline">
+              <div class="timeline_item">
+                <div class="circle_dot"></div>
+                <span class="timeline_date">
+                  <i class="bx bx-calendar"></i>2020-2024
+                </span>
+                <h2 class="timeline_title">
+                  National Institute of Technology, Silchar
+                </h2>
+                <p class="timeline_text">
+                  B.Tech in Electronics And Instrumentation Engineering
+                </p>
+                <p class="timeline_text">CGPA 8.04/10 (Till 6th sem)</p>
+              </div>
+              <div class="timeline_item">
+                <div class="circle_dot"></div>
+                <span class="timeline_date">
+                  <i class="bx bx-calendar"></i>2017-2019
+                </span>
+                <h2 class="timeline_title">Pragmetic Academy Junior college,Rangia</h2>
+                <p class="timeline_text">Class 12 Percentage - 79%</p>
+              </div>
+              <div class="timeline_item">
+                <div class="circle_dot"></div>
+                <span class="timeline_date">
+                  <i class="bx bx-calendar"></i>2007-2017
+                </span>
+                <h2 class="timeline_title">Shankardev shishu Niketan,Rangia</h2>
+                <p class="timeline_text">Class 10 Percentage - 86.5%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------------------------Skills-------------------------------- -->
+
+  <div id="skills">
+    <div class="container">
+      <div class="skills_tabs">
+        <h1 class="sub-title skills_links active_links" onclick="opentab('skill-set')">
+          Skills
+        </h1>
+        <h1 class="sub-title skills_links" onclick="opentab('TechStacks')">
+          Tech Stacks
+        </h1>
+      </div>
+
+      <!-- ----------------------------Skills------------------------------ -->
+      <div class="skills_list active_tab" id="skill-set">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Developement</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-solid fa-laptop-code"></i>
+          <h2>Data Structures</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-gears"></i>
+          <h2>Algorithms</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-brands fa-apple"></i>
+          <h2>Operating Systems</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-solid fa-network-wired"></i>
+          <h2>Computer Networks</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>DBMS</h2>
+          <a href="#"></a>
+        </div>
+      </div>
+
+      <!-- ----------------------------Tech Stacks------------------------------ -->
+      <div class="skills_list" id="TechStacks">
+        <div>
+          <i class="fa-brands fa-html5"></i>
+          <h2>HTML</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-brands fa-js"></i>
+          <h2>Javascript</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-brands fa-css3-alt"></i>
+          <h2>CSS</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-brands fa-react"></i>
+          <h2>React.js</h2>
+          <a href="#"></a>
+        </div>
+       <!--  <div>
+          <i class="fa-brands fa-node"></i>
+          <h2>Node.js</h2>
+          <a href="#"></a>
+        </div> -->
+        <!-- <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Express.js</h2>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>MongoDB</h2>
+          <a href="#"></a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- --------------------------Projects-------------------------- -->
+
+  <div id="projects">
+    <div class="container">
+      <h1 class="sub-title">My Personal Projects</h1>
+      <div class="projects_list">
+        <div class="work">
+          <img src="images/WeatherApp.png" alt="" srcset="">
+          <div class="layer">
+            <h3>WeatherApp</h3>
+            <p>WeatherApp is a simple and intuitive weather application that provides current weather information for any location around the world. It leverages the OpenWeatherMap API to fetch real-time weather data and offers a user-friendly interface for users to interact with. </p>
+            <a href="https://mridusmitac.github.io/_WeatherApp_/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <!-- <i class="fa-regular fa-arrow-up-right-from-square"></i> -->
+            <!-- <a href="https://contests-world-by-using-kontests-apis.mayurigoswami.repl.co/"></a> -->
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Sorting.png">
+          <div class="layer">
+            <h3>Sorting_visualizer</h3>
+            <p>this project is a web visualization tool for sorting algorithm</p>
+            <a href="https://mridusmitac.github.io/Sorting_visualizer__/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/text1-01.png">
+          <div class="layer">
+            <h3>Text-Tools</h3>
+            <p>This is a React based app which provides users to format their text. It also contains custom color modes.
+            </p>
+            <a href="https://textutils.mayurigoswami.repl.co/"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------------------------Contact-------------------------------- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>mridusmitachoudhury80@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+917664871396</p>
+          <div class="social_icons">
+            <a href="https://www.linkedin.com/in/mridusmita-choudhury-b86ab3216"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/mridusmita.choudhury.71"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://github.com/MridusmitaC"><i class="fa fa-github-square"></i></a>
+          </div>
+          <a href="https://drive.google.com/file/d/1aIXdF6O-5AyntwTfvsohTBZ3j9KR4Lzr/view?usp=sharing"
+            class="btn btn2">Resume</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message..."></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Mridusmita Choudhury.Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+  <script src="events.js"></script>
+</body>
+
+</html>
