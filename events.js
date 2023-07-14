@@ -40,9 +40,7 @@ form.addEventListener('submit', e => {
 })
 
 
-// cursor animation script 
-// const cursor = document.querySelector(".cursor");
-// var timeout;
+
 
 //follow cursor on mousemove
 document.addEventListener("mousemove", (e) => {
