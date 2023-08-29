@@ -482,117 +482,81 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width : 600px){
-    .header-text{
+@media only screen and (max-width:600px){
 
-        margin-top:100%;
-        font-size: 20px;
-    }
-    nav .fa-solid{
-        display: block;
-        font-size: 20px;
-        z-index: 1;
-    }
     nav ul{
-        background: #e0aaff;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 120vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul li a{
-        color: #262626;
-        font-family: var(--font2);
-        /* color: #fff; */
-        text-decoration: none;
-        font-size: 18px;
-        position: relative;
-    }
-
-    nav ul .fa-solid{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    .logo{
-        width: 150px;
+        display: none;
     }
     .header-text{
+        margin-top: 30%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        /* flex-basis: auto; */
-        flex-basis: 100%;
-    }
-    .hText-left{
-        width: 600px;
-        margin-left: 80vh;
-        margin-top: -25vh;
-    }
-    .hText-right{
-        display: flex;
         justify-content: center;
-        align-items: center;
-        margin-left: 77vh;
-        margin-top: 10vh;
     }
-    .about-col-1, .about-col-2{
-        flex-basis: 100%;
-        margin: auto;
+    .my-name{
+        font-size: 30px;
     }
-    .about-col-1 img{
-        width: 100vh;
-        margin: 18vh;
+    .hText-left span{
+        font-size: 20px;
     }
-    /* .education{
-        margin-left: 20vh;
-    } */
-    .sub-title{
-        font-size: 50px;
+    .hText-right {
+        margin-top: 10px;
+        margin-left: 100px;
     }
-    .timeline_text{
-        font-size: 22px;
+    .hText-right img{
+        display: none;
+        height: 300px;
+        /* margin-right: 100px; */
     }
-    #skills{
-        
-    }
-    .skills_list{
-        grid-template-columns:repeat(1,500px);
-    }
-    #project{
-        margin-left: 20vh;
-    }
-    .project_title{
-        margin-left: 20vh;
-        width: 200%;
-    }
-    .projects_list{
-        margin-left: 20vh;
-        grid-template-columns:repeat(1,500px);
-    }
-    .contact-left{
-        margin-left: 50vh;
+    #sidemenu.show{
+        display: block;
     }
     .row{
-        width: 100vh;
         display: flex;
         flex-direction: column;
-        justify-items: center;
-        /* flex-wrap: wrap; */
         align-items: center;
-        margin-left: 20vh;
+        justify-content: center;
     }
-    .copyright{
-        width: 165vh
+    .about-col-1{
+        margin-left: 30px;
+    }
+    .about-col-1 img{
+        width: 94%;
+        padding: 10px;
+    }
+    .education{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .timeline_text{
+        font-size: 15px;
+    }
+    .sub-title{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .timeline{
+        margin: auto;
+    }
+    .timeline_title{
+        font-size: 25px;
+    }
+    .skills_links{
+        margin-right: 60px;
+    }
+    .container {
+        padding: 10px 10%;
+    }
+    .projects_list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+    form input, form textarea{
+        font-size: 12px;
     }
 }
